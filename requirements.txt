@@ -1,4 +1,1 @@
-Flask==0.12.2
-numpy==1.20.2
-Werkzeug==0.14.1
-scikit-image
+tensorflow
