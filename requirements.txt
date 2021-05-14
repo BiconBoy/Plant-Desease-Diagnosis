@@ -1,5 +1,7 @@
-flask
-tensorflow
-werkzeug
-gevent
+cachelib==0.1.1
+click==7.1.2
+tensorflow==2.0
+Flask==0.12.2
+numpy==1.20.2
+Werkzeug==0.14.1
 scikit-image
