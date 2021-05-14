@@ -1,9 +1,9 @@
 import os
-import tensorflow as tf
+#import tensorflow as tf
 import numpy as np
-from tensorflow import keras
+#from tensorflow import keras
 from skimage import io
-from tensorflow.keras.preprocessing import image
+#from tensorflow.keras.preprocessing import image
 
 
 # Flask utils
