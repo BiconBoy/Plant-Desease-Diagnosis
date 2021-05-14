@@ -1,0 +1,5 @@
+flask
+tensorflow
+werkzeug
+gevent
+scikit-image
