@@ -9,7 +9,7 @@ from tensorflow.keras.preprocessing import image
 # Flask utils
 from flask import Flask, redirect, url_for, request, render_template
 from werkzeug.utils import secure_filename
-from gevent.pywsgi import WSGIServer
+#from gevent.pywsgi import WSGIServer
 
 # Define a flask app
 app = Flask(__name__)
@@ -73,7 +73,7 @@ def upload():
 if __name__ == '__main__':
     app.run(debug=False, host = '0.0.0.0')
 
-    # Serve the app with gevent
+    # Serve the app with 
      # http_server = WSGIServer(('', 5000), app)
     #  http_server.serve_forever()
      # app.run()
